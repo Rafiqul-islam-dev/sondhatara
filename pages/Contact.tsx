@@ -47,8 +47,8 @@ const Contact: React.FC = () => {
             {/* Contact Info Cards */}
             <div className="space-y-8">
               {[
-                { title: 'আমাদের ঠিকানা', info: 'চাঁদপুর সদর, চাঁদপুর-৩৬০০, বাংলাদেশ।', color: 'teal', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
-                { title: 'ফোন করুন', info: '+৮৮০১৭১২-৩৪৫৬৭৮\n+৮৮০১৭১২-৩৪৫৬৭৯', color: 'blue', icon: 'M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21' },
+                { title: 'আমাদের ঠিকানা', info: 'সলিয়া বাকপুর, বানারীপাড়া, বরিশাল', color: 'teal', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
+                { title: 'ফোন করুন', info: '+8880 1711-192588', color: 'blue', icon: 'M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21' },
                 { title: 'ইমেইল', info: 'info@sondhatara.org\nsupport@sondhatara.org', color: 'emerald', icon: 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8' }
               ].map((item, idx) => (
                 <ScrollReveal key={idx} animation="slide-left" delay={idx * 100}>
@@ -134,18 +134,7 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="h-96 w-full grayscale hover:grayscale-0 transition-all duration-700">
-        <iframe 
-          title="Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117469.349666063!2d90.5894178!3d23.2307524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755060411d595ad%3A0x7d0663459c55b17a!2sChandpur!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd" 
-          width="100%" 
-          height="100%" 
-          style={{ border: 0 }} 
-          allowFullScreen 
-          loading="lazy"
-        ></iframe>
-      </section>
+    
     </div>
   );
 };

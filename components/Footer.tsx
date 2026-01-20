@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               আমরা একটি অলাভজনক সামাজিক সংস্থা, যারা মানবতার সেবায় এবং সমাজ সংস্কারে নিরলস কাজ করে যাচ্ছি।
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-600 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61569204872121" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-600 transition-colors">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
               </a>
               <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-600 transition-colors">
@@ -54,18 +54,18 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-teal-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                <span>চাঁদপুর সদর, চাঁদপুর-৩৬০০,<br/>চট্টগ্রাম বিভাগ, বাংলাদেশ।</span>
+                <span>সলিয়া বাকপুর,<br/>বানারীপাড়া, বরিশাল</span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                <span>+৮৮০১৭১২-৩৪৫৬৭৮</span>
+                <span>+880 1711-192588</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
-          <p>© ২০২৪ সন্ধ্যাতারা জনকল্যাণ সংস্থা। সর্বস্বত্ব সংরক্ষিত।</p>
+          <p>© ২০২৬ সন্ধ্যাতারা জনকল্যাণ সংস্থা। সর্বস্বত্ব সংরক্ষিত।</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="hover:text-white">প্রাইভেসি পলিসি</a>
             <a href="#" className="hover:text-white">টার্মস অফ সার্ভিস</a>
