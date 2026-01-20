@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../asset/logo-sondatara.jpg';
 
 const Footer: React.FC = () => {
   return (
@@ -9,12 +10,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-8 h-8 bg-teal-600 rounded flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-              </div>
-              <span className="text-white text-xl font-bold">সন্ধ্যাতারা</span>
+              
+              <img src={logo} alt="সন্ধ্যাতারা লোগো" className="w-[200px] h-20" />
             </div>
             <p className="text-sm leading-relaxed mb-6">
               আমরা একটি অলাভজনক সামাজিক সংস্থা, যারা মানবতার সেবায় এবং সমাজ সংস্কারে নিরলস কাজ করে যাচ্ছি।
